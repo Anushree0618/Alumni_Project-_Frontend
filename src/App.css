@@ -1,0 +1,22 @@
+/* LOGIN CSS*/
+
+
+
+
+ .box{
+  /*background-image: url('./assets/img7.jpg');*/
+  background-size: cover;
+  /*background-color: grey;*/
+  background-position: center;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.experience-card{
+  background-color: white;
+}
+
+
+
+
+/* CONTACT CSS*/

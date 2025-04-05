@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AlumniExperiences from "./AlumniExperiences ";
 import About from "./About";
+import  "../App.css";
 import Contact from "./Contact";
 import img1 from "../assets/img1.avif";
 import img2 from "../assets/img2.avif";

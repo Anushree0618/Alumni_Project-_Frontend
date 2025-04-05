@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Form, Button, Container, Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  "../App.css";
+
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -22,6 +24,9 @@ const Login = () => {
     };
 
     return (
+        <>
+        
+       
         <Container className="d-flex justify-content-center align-items-center vh-100">
             <Card style={{ width: "25rem", padding: "20px" }}>
                 <Card.Body>
@@ -56,6 +61,8 @@ const Login = () => {
                 </Card.Body>
             </Card>
         </Container>
+        
+        </>
     );
 };
 
