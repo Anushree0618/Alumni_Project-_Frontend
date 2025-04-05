@@ -1,13 +1,270 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Navbar Styling */
+.navbar {
+    padding: 15px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem; /* Slightly larger text */
+    font-weight: bold;
+    color: white !important;
+   /* background-color: rgba(75, 136, 243, 0.8);*/ /* Highlight with yellow */
+    padding: 8px 15px;
+    border-radius: 8px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(49, 119, 240, 0.8); /* Floating effect */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Hover effect to enhance floating */
+.navbar-brand:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(43, 151, 239, 0.8);
 }
+
+  
+  /* Style the Login Button */
+.btn-outline-warning {
+    color: white !important; /* White text */
+    background-color: #00aaff !important; /* Sky Blue */
+    border: 2px solid #007acc !important; /* Darker Sky Blue Border */
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.btn-outline-warning:hover {
+    background-color: #007acc !important; /* Darker sky blue on hover */
+    border-color: #005f99 !important; /* Slightly darker border */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+  
+  
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+/* Right Arrow Button */
+.hero .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero .right-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+  
+  
+  
+  
+  /* Hero Section */
+  .hero {
+    /*background: url('/src/assets/img2.avif') no-repeat center center/cover;*/
+
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+
+  .hero h1 {
+    margin-bottom: 200px; /* Adjust this value as needed */
+    color: black;
+    border-radius: 8px; /* Rounded edges */
+   
+}
+    
+/*experience section*/
+/* index.css */
+
+/* General Section Styling */
+#alumni-experiences {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+/* Heading */
+#alumni-experiences h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #343a40;
+}
+
+/* Experience Cards */
+.experience-card {
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-card .card-body {
+  padding: 25px;
+}
+
+.experience-card .card-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #555;
+}
+
+
+  /* About Us Section */
+  #about {
+    padding: 60px 0;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+
+  /* About Us Section */
+#about {
+    background-color: #97aec5; /* Light gray background */
+    padding: 60px 20px; /* Adds spacing */
+}
+
+#about h2 {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: #333; /* Dark color for heading */
+    margin-bottom: 20px;
+}
+
+#about .lead {
+    font-size: 1.2rem;
+    color: #555; /* Slightly darker gray for readability */
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #666; /* Medium gray */
+    line-height: 1.6;
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center text */
+}
+
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 0;
+    background-color: #39434b; 
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  #contact p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Buttons */
+  .btn-warning {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero {
+        padding: 60px 0;
+    }
+  
+    .hero h1 {
+        font-size: 2rem;
+    }
+  
+    .hero p {
+        font-size: 1rem;
+    }
+  }
+  
+
+  #alumni-experiences {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+  }
+  
+  #alumni-experiences h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .experience-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .experience-card p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+
+
+  
