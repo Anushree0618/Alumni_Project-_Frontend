@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import { Form, Button, Container, Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import  "../App.css";
+
+/*import Home from "./Home";
+import AdminDashboard from "./AdminDashboard";
+import AlumniDashboard from"./AlumniDashboard";
+
+import UpcomingEvTable from "./components/UpcomingEvTable";*/
+
+import './Login.css';
 
 
 const Login = () => {
@@ -17,16 +24,16 @@ const Login = () => {
         if (email === "admin@example.com" && password === "admin123") {
             navigate("/admin-dashboard");
         } else if (email === "student@example.com" && password === "student123") {
-            navigate("/student-dashboard");
+            navigate("/alumni-dashboard");
         } else {
             alert("Invalid credentials!");
         }
     };
 
+
+
     return (
         <>
-        
-       
         <Container className="d-flex justify-content-center align-items-center vh-100">
             <Card style={{ width: "25rem", padding: "20px" }}>
                 <Card.Body>
@@ -61,9 +68,9 @@ const Login = () => {
                 </Card.Body>
             </Card>
         </Container>
-        
         </>
     );
 };
+
 
 export default Login;

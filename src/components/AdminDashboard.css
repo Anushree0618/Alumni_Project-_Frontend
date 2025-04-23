@@ -1,0 +1,118 @@
+/* Sidebar Styling */
+.sidebar {
+    width: 120px;
+    min-height: 100vh;
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar h5 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar .nav-link {
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background 0.3s;
+    text-decoration: none;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #495057;
+    text-decoration: none;
+  }
+  
+  /* Main content area */
+  .content {
+    margin-left: 220px;
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .content h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+.card 
+{
+    border: none;
+    border-radius: 15px;
+    
+}
+  
+.card:hover 
+{
+    transform: scale(1.02);
+    
+}
+  
+.card-title 
+  {
+    font-weight: 600;
+  }
+  
+.btn-primary 
+  {
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    
+}
+.custom-event-btn 
+  {
+    background-color: green;
+    border: 2px solid darkgreen;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+.custom-event-btn:hover 
+  {
+    background-color: blue;
+    border: 2px solid darkblue;
+    color: white;
+  }
+  
+.custom-alumni-btn 
+  {
+    background-color: green;
+    border: 2px solid darkgreen;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+.custom-alumni-btn:hover
+   {
+    background-color: blue;
+    border: 2px solid darkblue;
+    color: white;
+  }
+  
+  .custom-feedback-btn 
+  {
+    background-color: green;
+    border: 2px solid darkgreen;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-feedback-btn:hover 
+  {
+    background-color: blue;
+    border: 2px solid darkblue;
+    color: white;
+  }
+  
+  .vibrant-title {
+    color: #17a2b8; /* Teal-like color */
+    font-weight: 700;
+  }
+  
+  
