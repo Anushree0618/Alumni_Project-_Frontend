@@ -1,7 +1,14 @@
 /* Navbar Styling */
-.navbar {
+
+  .navbar {
+    position: sticky;
+    top: 0;
     padding: 15px;
+
+    width: 100%;
+    z-index: 1000; /* ensures it stays above other elements */
   }
+  
   
   .navbar-brand {
     font-size: 1.8rem; /* Slightly larger text */
@@ -10,7 +17,7 @@
    /* background-color: rgba(75, 136, 243, 0.8);*/ /* Highlight with yellow */
     padding: 8px 15px;
     border-radius: 8px; /* Rounded edges */
-    box-shadow: 0 4px 8px rgba(49, 119, 240, 0.8); /* Floating effect */
+    box-shadow: 0 4px 8px rgba(63, 121, 220, 0.8); /* Floating effect */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -24,8 +31,8 @@
   /* Style the Login Button */
 .btn-outline-warning {
     color: white !important; /* White text */
-    background-color: #00aaff !important; /* Sky Blue */
-    border: 2px solid #007acc !important; /* Darker Sky Blue Border */
+    background-color: #35be5e !important; /* Sky Blue */
+    border: 2px solid #065b27 !important; /* Darker Sky Blue Border */
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
@@ -80,7 +87,6 @@
   
   
   
-  
   /* Hero Section */
   .hero {
     /*background: url('/src/assets/img2.avif') no-repeat center center/cover;*/
@@ -105,6 +111,18 @@
     border-radius: 8px; /* Rounded edges */
    
 }
+
+
+
+.carousel-caption-top h3 {
+  color: black;
+  margin-bottom: 70%;
+}
+.carousel-caption h3 {
+  color: black;
+}
+
+
     
 /*experience section*/
 /* index.css */
@@ -167,26 +185,26 @@
 
   /* About Us Section */
 #about {
-    background-color: #97aec5; /* Light gray background */
+    background-color: #6e9dcd; /* Light gray background */
     padding: 60px 20px; /* Adds spacing */
 }
 
 #about h2 {
     font-size: 2.5rem; 
     font-weight: bold;
-    color: #333; /* Dark color for heading */
+    color: #2c2828; /* Dark color for heading */
     margin-bottom: 20px;
 }
 
 #about .lead {
     font-size: 1.2rem;
-    color: #555; /* Slightly darker gray for readability */
+    color: #100e0e; /* Slightly darker gray for readability */
     margin-bottom: 15px;
 }
 
 #about p {
     font-size: 1rem;
-    color: #666; /* Medium gray */
+    color: #120f0f; /* Medium gray */
     line-height: 1.6;
     max-width: 800px; /* Limit width for better readability */
     margin: 0 auto; /* Center text */
@@ -196,7 +214,7 @@
   /* Contact Section */
   #contact {
     padding: 60px 0;
-    background-color: #39434b; 
+    background-color: #47637a; 
   }
   
   #contact h2 {
@@ -207,7 +225,7 @@
   
   #contact p {
     font-size: 1.1rem;
-    color: #333;
+    color: #c7b5b5;
   }
   
   /* Buttons */
@@ -233,6 +251,14 @@
     }
   }
   
+
+
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
 
   #alumni-experiences {
     background-color: #f8f9fa;
@@ -264,6 +290,56 @@
     color: #555;
     line-height: 1.6;
   }
+  .Login-CSS
+/* Centering container vertically and horizontally */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5); /* light gradient background */
+}
+
+/* Card styling */
+.card {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Heading */
+.card h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Input fields */
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Button */
+button[type="submit"] {
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .card {
+    width: 100% !important;
+    margin: 0 10px;
+  }
+}
   
 
 

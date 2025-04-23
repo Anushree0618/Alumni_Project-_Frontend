@@ -1,0 +1,50 @@
+/* Centering container vertically and horizontally */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0c5749, #44518a); /* light gradient background */
+  }
+  
+  /* Card styling */
+  .card {
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Heading */
+  .card h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #384a5c;
+  }
+  
+  /* Input fields */
+  .form-control {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Button */
+  button[type="submit"] {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #54eb4c;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 576px) {
+    .card {
+      width: 100% !important;
+      margin: 0 10px;
+    }
+  }
+  

@@ -1,0 +1,56 @@
+
+.profile-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #fafafa;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .profile-container label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .profile-container .required {
+    color: red;
+    margin-left: 2px;
+  }
+  
+  .profile-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .profile-container button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #2196f3;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-container button:hover {
+    background-color: #1976d2;
+  }
+  

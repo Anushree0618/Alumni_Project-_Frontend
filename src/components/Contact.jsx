@@ -8,12 +8,13 @@ const Contact = () => {
     <Container>
         <h2>Contact Us</h2>
         <p className="lead">Have questions or need assistance? Reach out to us!</p>
-        <p>Email: support@alumninetwork.com</p>
+        <p>Email: anushreeshinde1862002@gmail.com</p>
+        <p>Email: vaishnuwagh002@gmail.com</p>
         <p>Phone: +1 234 567 890</p>
-        <p>Address: 123 Alumni Street, City, Country</p>
+        <p>Address: 123 Alumni Street, Pune, Country</p>
     </Container>
 </section>
   )
 }
 
-export default Contact
+export default Contact;

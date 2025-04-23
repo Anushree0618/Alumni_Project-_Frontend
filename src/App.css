@@ -1,4 +1,4 @@
-/* LOGIN CSS*/
+/*.LOGIN-CSS*/
 
 
 
@@ -13,7 +13,13 @@
   border-radius: 10px;
 }
 .experience-card{
+  
   background-color: white;
+}
+.justify-content-center-card .experience-card{
+  width: 100px;
+  height: 100px;
+
 }
 
 
